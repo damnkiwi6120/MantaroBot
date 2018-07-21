@@ -369,23 +369,23 @@
     },
     "ping": {
       "quotes": {
-        "1": "supersonic speed! :upside_down:",
-        "10": "faster than Sonic! :smiley:",
-        "69": "l-lewd! <:MantaroGasm:318869352851963904>",
-        "100": "great! :smiley:",
-        "200": "nice! :slight_smile:",
-        "300": "decent. :neutral_face:",
-        "400": "average... :confused:",
-        "500": "slightly slow. :slight_frown:",
-        "600": "kinda slow.. :frowning2:",
-        "700": "slow.. :worried:",
-        "800": "too slow. :disappointed:",
-        "900": "bad. :sob: (help me)",
-        "1600": "#BlameDiscord. :angry:",
-        "10000": "this makes no sense :thinking: #BlameSteven",
-        "default": "slow af. :dizzy_face:"
+        "1": "速度超過音速太多啦！ :upside_down:",
+        "10": "達到超音速了！ :smiley:",
+        "69": "ㄒㄧ...下流！ <:MantaroGasm:318869352851963904>",
+        "100": "好極了！ :smiley:",
+        "200": "很好！ :slight_smile:",
+        "300": "還不錯  :neutral_face:",
+        "400": "普普... :confused:",
+        "500": "有這麼一丁點慢的說  :slight_frown:",
+        "600": "好像有點慢.. :frowning2:",
+        "700": "好慢.. :worried:",
+        "800": "太慢啦  :disappointed:",
+        "900": "喔不  :sob: (霸脫救我)",
+        "1600": "#對Discord表達強烈譴責  :angry:",
+        "10000": "這不科學啊 :thinking: #李奧納多皮卡丘ㄡㄡㄡㄡㄡ",
+        "default": "心臟病發啦  :dizzy_face:"
       },
-      "text": "%1$s*%2$s* - My ping: %3$d ms (%4$s) `Websocket:%5$dms`"
+      "text": "%1$s*%2$s* - 我的 ping 值: %3$d 毫秒 (%4$s) `Websocket:%5$d毫秒`"
     },
     "love": {
       "no_mention": "%1$sYou need to mention at least 1 user.",
