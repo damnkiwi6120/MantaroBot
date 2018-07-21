@@ -1,6 +1,6 @@
 {
   "general": {
-    "invalid_number": "%1$s這不是一個有效的數字!",
+    "invalid_number": "%1$sThat is not a valid number!",
     "requested_by": "Requested by %1$s.",
     "operation_timed_out": "%1$sThe time to answer this operation has ran out.",
     "too_many_users_found": "%1$sToo many users found, maybe refine your search? (ex. use name#discriminator)\n**Users found:** %2$s",
