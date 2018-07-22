@@ -1188,19 +1188,19 @@
       "too_little": "%1$sYou cannot gamble so little money (Minimum: 100 credits)"
     },
     "loot": {
-      "player_locked": "%1$sYou cannot loot now.",
-      "item_overflow": "But you already had too many items, so you decided to throw away the excess.",
+      "player_locked": "%1$s你現在沒有辦法搜刮訊息中的寶物喔",
+      "item_overflow": "你已經擁有太多物品了，所以你決定把多餘的丟掉",
       "with_item": {
-        "found": "%1$sDigging through messages, you found %2$s, along with **$%3$d credits!** %4$s",
-        "found_but_overflow": "%1$sDigging through messages, you found %2$s, along with **$%3$d credits.**%4$sBut you already had too many credits, so I donated the excess.",
-        "found_only_item_but_overflow": "%1$sDigging through messages, you found %2$s. %3$s"
+        "found": "%1$s你在挖掘訊息時找到了 %2$s，同時你還找到 **$%3$d 元！** %4$s",
+        "found_but_overflow": "%1$s你在挖掘訊息時找到了 %2$s，同時你還找到 **$%3$d 元。**%4$s但你已經擁有太多錢了，所以我把多餘的錢捐掉了",
+        "found_only_item_but_overflow": "%1$s你在挖掘訊息時找到了 %2$s. %3$s"
       },
       "without_item": {
-        "found": "%1$sDigging through messages, you found **$%2$s credits!**",
-        "found_but_overflow_no_item": "%1$sDigging through messages, you found **$%2$d credits.** But you already had too many credits, so I donated the excess."
+        "found": "%1$s你在挖掘訊息時找到了 **$%2$s 元！**",
+        "found_but_overflow_no_item": "%1$s你在挖掘訊息時找到了 **$%2$d 元。** 但你已經擁有太多錢了，所以我把多餘的錢捐掉了"
       },
-      "dust": "Digging through messages, you found nothing but dust",
-      "easter": "\nSeems like you've got so much dust here... You might want to clean this up before it gets too messy!"
+      "dust": "你在挖掘訊息時只找到一堆垃圾",
+      "easter": "\n看起來你似乎從這裡得到太多垃圾了... 你或許會想要在這裡變得更髒亂前把這裡清乾淨！"
     },
     "mine": {
       "no_pick": "%1$sYou don't have any pick to mine.",
