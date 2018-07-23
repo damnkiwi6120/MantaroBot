@@ -1172,8 +1172,8 @@
       "credits": "%1$sYou got **$%2$s** daily credits.\n\n%3$s"
     },
     "gamble": {
-      "no_credits": "%1$sYou're broke. Maybe search for some credits first.",
-      "too_much_money": "%1$sYou have too much money! Maybe transfer or buy items? Now you can also use `~>slots` for all your gambling needs! Thanks for not breaking the local bank. *(Gamble absolute limit: %2,$d credits)*",
+      "no_credits": "%1$s你破產了，或許先去賺點錢吧",
+      "too_much_money": "%1$s你的錢太多啦！ 或許匯點錢給別人或買點東西？ 你現在也可以用 `~>slots` 來滿足你的所有賭博需求喔！ 感謝你不讓銀行破產 *(賭博上限： %2,$d 元)*",
       "invalid_money_or_modifier": "%1$sPlease type a valid number less than or equal to your current balance or `all` to gamble all your credits.",
       "not_enough_money": "%1$sPlease type a value within your balance.",
       "invalid_percentage": "%1$sPlease type a valid percentage value.",
