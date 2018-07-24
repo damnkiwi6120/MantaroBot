@@ -1173,19 +1173,19 @@
     },
     "gamble": {
       "no_credits": "%1$s你破產了，或許先去賺點錢吧",
-      "too_much_money": "%1$s你的錢太多啦！ 或許匯點錢給別人或買點東西？ 你現在也可以用 `~>slots` 來滿足你的所有賭博需求喔！ 感謝你沒讓銀行破產 *(賭博上限： %2,$d 元)*",
+      "too_much_money": "%1$s你的錢太多啦！ 或許匯點錢給別人或買點東西？ 你現在也可以用 `~>slots` 來滿足你的所有賭博需求喔！ 感謝你沒讓銀行破產 *(賭博財產上限： %2$d 元)*",
       "invalid_money_or_modifier": "%1$s請輸入一個小於或等於你現有金錢的有效數字或加入參數 `all` 來梭哈你所有的錢",
       "not_enough_money": "%1$s請在可負擔的範圍內輸入一個值",
       "invalid_percentage": "%1$s請輸入一個有效的百分比",
       "confirmation_message": "%1$s你正要把 **%2$d** 元作為賭金賭下去 (而且這數字似乎還不小). 你確定嗎？ 輸入 **yes** 繼續，否則請輸入 **no** ",
-      "cancelled_bet": "%1$sCancelled bet.",
-      "win": "%1$sCongrats, you won %2$d credits and got to keep what you had.",
-      "win_overflow": "%1$sCongrats, you won %2$d credits. But you already had too many credits. Your bag overflowed.",
-      "lose": "%1$sSadly, you lost %2$s credits. %3$s",
-      "lose_all": "all of your",
-      "credits": "credits",
-      "too_much": "%1$sYou can only gamble up to 275 million at once. You don't want to go full broke do you? *(Gamble single limit: %2$,d credits)*",
-      "too_little": "%1$sYou cannot gamble so little money (Minimum: 100 credits)"
+      "cancelled_bet": "%1$s賭博已取消",
+      "win": "%1$恭喜你獲得 %2$d 元並保有了所有賭金",
+      "win_overflow": "%1$s恭喜你獲得 %2$d 元，但你已經擁有太多錢了。你的袋子裝不下了",
+      "lose": "%1$s很遺憾， 你輸了 %2$s 元 %3$s",
+      "lose_all": "你所有的",
+      "credits": "錢",
+      "too_much": "%1$s你一次最多只能賭 2.75 億元。 你應該不想把財產給敗光吧？ *(單次賭博限制: %2$d 元)*",
+      "too_little": "%1$s你賭的錢太少啦 (最小限制: 100 元)"
     },
     "loot": {
       "player_locked": "%1$s你現在沒有辦法搜刮訊息中的寶物喔",
