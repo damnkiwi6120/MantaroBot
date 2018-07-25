@@ -589,8 +589,8 @@
       "invalid_args": "%1$sInvalid option or arguments."
     },
     "8ball": {
-      "no_args": "%1$sYou need to specify what you want the 8ball to answer.",
-      "error": "%1$sI ran into an error while fetching the 8ball results."
+      "no_args": "%1$s你必須指定你想要神奇8號球回答的事情",
+      "error": "%1$s我在取得神奇八號球的占卜結果時發生錯誤"
     },
     "iam": {
       "list": {
