@@ -113,17 +113,17 @@
     },
     "music_usage": {
       "1": "*如何使用 Mantaro 的音樂指令？*",
-      "2": "- To **從 youtube 或 soundcloud 點歌** use `~>play` For example: `~>play https://www.youtube.com/watch?v=aAolFWjGfMs` *It will connect automatically to the voice channel you are in*",
-      "3": "- To **在 youtube 找一首歌** use `~>play <search term>` (without the leading < and >) For example: `~>play see you again` (You need to select the number, just *type the number* after the selection box pops up!)",
-      "4": "- To **在 soundcloud 找一首歌** use `~>play soundcloud <search term>` For example `~>play soundcloud hot milk`",
-      "5": "- To **看歌單** you just type `~>queue`",
-      "6": "- To **從歌單移除一個曲目** you just need to use `~>removetrack` It takes as an argument the position the song is queued at (you can check in on queue)",
-      "7": "- To **暫停或解除暫停** just use `~>pause`",
-      "8": "- To **停止音樂並解除播放器** use `~>stop`",
-      "9": "- To **讓歌單洗牌** just use `~>shuffle`",
-      "10": "- And lastly, to **repeat a song** use `~>repeat` and to **repeat a queue** use `~>repeat queue`. Using `~>repeat` while repeat is on, turns it off\n",
-      "11": "For more info please use `~>help <command name>` (without the <> and replace command name with the name of the command you want)",
-      "12": "Enjoy your music and thanks for using Mantaro!"
+      "2": "- 要 **從 youtube 或 soundcloud 點歌** 就使用 `~>play` 例如: `~>play https://www.youtube.com/watch?v=aAolFWjGfMs` *它會自動連接到你所在的語音頻道*",
+      "3": "- 要 **在 youtube 找一首歌** 就使用 `~>play <搜尋關鍵字>` (不包含前後跟著的 < 和 >) 例如: `~>play see you again` (你必須去選擇數字， 只要在選項方塊彈出後 *輸入數字* 即可！)",
+      "4": "- 要 **在 soundcloud 找一首歌** 就使用 `~>play soundcloud <搜尋關鍵字>` 例如 `~>play soundcloud hot milk`",
+      "5": "- 要 **看歌單** 你只要輸入 `~>queue`",
+      "6": "- 要 **從歌單移除一個曲目** 你只需要使用 `~>removetrack` 他將以歌在點播單上的位置作為參數 (你可以在點播單中做確認)",
+      "7": "- 要 **暫停或解除暫停** 只要用 `~>pause`",
+      "8": "- 要 **停止音樂並解除播放器** 就使用 `~>stop`",
+      "9": "- 要 **讓歌單洗牌** 只要用 `~>shuffle`",
+      "10": "- 最後, 要 **重複一首歌** 就使用 `~>repeat` 然後要 **重複整個歌單** 就使用 `~>repeat queue`. 在重複開啟時使用 `~>repeat` 會將其關閉\n",
+      "11": "要更多資訊的話請使用 `~>help <命令名稱>` (不包含 <> 並將命令名稱取代為你所想要的命令)",
+      "12": "好好享受你的音樂吧同時感謝你使用 Mantaro！"
     },
     "lang": {
       "info": "%1$sYou can change the server language (if applicable) using `~>opts language set <language code>`. Your personal language preferences can be changed using `~>profile lang <language code>`.\n**Available languages:** `%2$s`"
