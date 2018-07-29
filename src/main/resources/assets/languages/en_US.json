@@ -565,7 +565,7 @@
       "no_money_notice": "%1$sYou cannot transfer money you don't have.",
       "receipt_locked_notice": "1$sThat user cannot receive money now.",
       "receipt_over_limit": "%1$sThis user already has too much money...",
-      "success": "%1$sTransferred **%2$,d** *(%3$,d after 10%% tax)* to **%4$s** successfully.",
+      "success": "%1$sTransferred **%2$d** *(%3$d after 10%% tax)* to **%4$s** successfully.",
       "item_transfer": "%1$sYou cannot transfer items using transfer, use the `transferitems` command instead.",
       "party": "You can only transfer to the same person (%1$s) once every 4 minutes."
     },
@@ -677,6 +677,7 @@
         "success": "%1$sMantaro will now talk to you in `%2$s`",
         "invalid": "%1$sThat language doesn't exist! You can use `reset` to reset your language settings."
       },
+      "badge_header": "%1$sDisplay Badge",
       "bot_notice": "%1$sBots don't have profiles.",
       "header": "%1$s's Profile",
       "no_desc": "No description set",
@@ -731,7 +732,7 @@
       "header": "**%1$s's Birthdays for %2$s**\n",
       "invalid_date": "%1$sNot a valid date or it's not in the correct format.\nRemember that the date format is `dd/mm/yyyy`",
       "error_date": "%1$s%2$s is either not a valid date or I can't parse it properly. Please try with the correct formatting. Remember to include the year, although you can put any year and it won't affect anything.\nRemember that the date format is `dd/mm/yyyy`",
-      "added_birthdate": "%1$sSuccessfully added birth date. New birthday date: %2$s *(Format: dd/MM/yyyy)",
+      "added_birthdate": "%1$sSuccessfully added birth date. New birthday date: %2$s *(Format: dd-MM-yyyy)*",
       "invalid_month": "%1$sThat's not a valid month number! (Valid months are numbers from 1 to 12)",
       "no_content": "%1$sYou need to specify your birthday, `remove` to reset your birthday or `month` to check the birthday month list."
     },
@@ -1035,20 +1036,7 @@
         "header": "Mantaro's server usage information",
         "cpu_usage": "CPU Usage",
         "rem": "RAM (TOTAL/FREE/USED)"
-      },
-      "users_guild": "Users per Guild",
-      "online_users_guild": "Online Users per Guild",
-      "online_users_users_guild": "Online Users per Users per Server",
-      "tc_server": "Text Channels per Server",
-      "vc_server": "Voice Channels per Server",
-      "music_user_server": "Music Listeners per Users per Server",
-      "music_online_user_server": "Music Listeners per Online Users per Server",
-      "music_server": "Music Connections per Server",
-      "queue_size": "Total queue size",
-      "commands": "Total commands (including custom)",
-      "exclusiveness": "Exclusiveness in Total Servers",
-      "big_servers": "Big Servers (>500 users)",
-      "milestone": "! Guilds to next milestone (%1$s): %2$s"
+      }
     },
     "social": {
       "header": "%1$sO-Oh, I see you're interested on seeing my social networks!\n\n",
@@ -1147,8 +1135,8 @@
       "no_info": "No info."
     },
     "balance": {
-      "external_balance": "%1$s's balance is **$%2$.d credits.**",
-      "own_balance": "Your balance is **$%1$,d credits.**"
+      "external_balance": "%1$s's balance is **$%2$d credits.**",
+      "own_balance": "Your balance is **$%1$d credits.**"
     },
     "daily": {
       "check": "%1$sYou'll be able to claim your daily on: **%2$s.**",
@@ -1173,7 +1161,7 @@
     },
     "gamble": {
       "no_credits": "%1$sYou're broke. Maybe search for some credits first.",
-      "too_much_money": "%1$sYou have too much money! Maybe transfer or buy items? Now you can also use `~>slots` for all your gambling needs! Thanks for not breaking the local bank. *(Gamble absolute limit: %2,$d credits)*",
+      "too_much_money": "%1$sYou have too much money! Maybe transfer or buy items? Now you can also use `~>slots` for all your gambling needs! Thanks for not breaking the local bank. *(Gamble absolute limit: %2$d credits)*",
       "invalid_money_or_modifier": "%1$sPlease type a valid number less than or equal to your current balance or `all` to gamble all your credits.",
       "not_enough_money": "%1$sPlease type a value within your balance.",
       "invalid_percentage": "%1$sPlease type a valid percentage value.",
@@ -1184,7 +1172,7 @@
       "lose": "%1$sSadly, you lost %2$s credits. %3$s",
       "lose_all": "all of your",
       "credits": "credits",
-      "too_much": "%1$sYou can only gamble up to 275 million at once. You don't want to go full broke do you? *(Gamble single limit: %2$,d credits)*",
+      "too_much": "%1$sYou can only gamble up to 275 million at once. You don't want to go full broke do you? *(Gamble single limit: %2$d credits)*",
       "too_little": "%1$sYou cannot gamble so little money (Minimum: 100 credits)"
     },
     "loot": {
@@ -1289,7 +1277,7 @@
     "server_channel_disallow": {
       "no_channel": "%1$sYou need to specify the channel where you want the bot not to listen to commands.",
       "too_many": "%1$sYou cannot disable more channels since the bot wouldn't be able to talk otherwise :(",
-      "success": "%1$sChannel %2$s will not longer listen to commands"
+      "success": "%1$sChannel %2$s will no longer listen to commands"
     },
     "server_channel_allow": {
       "no_channel": "%1$sYou need to specify the channel where you want the bot to listen to commands. (All channels by default)",
@@ -1657,6 +1645,7 @@
   "items": {
     "headphones": "Headphones",
     "ban_hammer": "Ban Hammer",
+    "die": "Loaded Die",
     "kick_boot": "Kick Boot",
     "floppy": "Floppy Disk",
     "maths": "My Maths",
@@ -1718,6 +1707,7 @@
     "motorcycle": "Motorcycle",
     "comet_pick": "Comet Gem Pickaxe",
     "star_pick": "Star Gem Pickaxe",
+    "pizza": "Pizza",
     "description": {
       "headphones": "That's what happens when you listen to too much music. Should be worth something, tho.",
       "ban_hammer": "Left by an admin.",
@@ -1726,7 +1716,7 @@
       "maths": "Oh, I forgot my maths.",
       "racket": "I won the game of ping-pong with Discord by a few milliseconds. Maybe.",
       "loaded_die": "Stolen from the `~>roll` command.",
-      "forgotten": "ever downloaded. Probably has been copyrighted.",
+      "forgotten": "Never downloaded. Probably has been copyrighted.",
       "pencil": "We have plenty of those!",
       "moneybag": "What else?",
       "pick": "That guy liked Minecraft way too much. (`~>mine` tool)",
@@ -1766,7 +1756,7 @@
       "rod": "Enables you to fish.",
       "fish": "Fish. Caught in fishing.",
       "tropical_fish": "A very tropical fish. Caught in fishing.",
-      "blowfish": "I wonder... is this good?. Caught in fishing.",
+      "blowfish": "I wonder... is this good? Caught in fishing.",
       "comet_gem": "Fragments of a comet you found while mining. Useful for casting.",
       "star_gem": "Fragments of a fallen star you found while mining.",
       "cobweb": "Something a spider left over on the mine. Wonder if it's worth something.",
@@ -1781,7 +1771,8 @@
       "wrench": "Casting tool. Useful to put stuff together.",
       "motorcycle": "Going around, the cool way.",
       "comet_pick": "A very much stronger pick (Comet). (`~>mine` tool).",
-      "star_pick": "A very much stronger pick (Star). (`~>mine` tool)."
+      "star_pick": "A very much stronger pick (Star). (`~>mine` tool).",
+      "pizza": "Yummy."
     }
   }
 }
