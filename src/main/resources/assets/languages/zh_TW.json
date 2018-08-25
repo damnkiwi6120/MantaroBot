@@ -1,6 +1,6 @@
 {
   "general": {
-    "invalid_number": "%1$sThat is not a valid number!",
+    "invalid_number": "%1$s這是一個無效的數值",
     "requested_by": "Requested by %1$s.",
     "operation_timed_out": "%1$sThe time to answer this operation has ran out.",
     "too_many_users_found": "%1$sToo many users found, maybe refine your search? (ex. use name#discriminator)\n**Users found:** %2$s",
@@ -1197,8 +1197,8 @@
       "not_in_inventory": "%1$sYou don't have this pick on your inventory, switching to the default pick.",
       "success": "%1$sYou mined minerals worth **$%2$s credits**, using a *%3$s*",
       "diamond": {
-        "overflow": "Huh, you found a diamond while mining, but you already had too much, so I sold it for you.",
-        "success": "Huh! You got lucky and found a diamond while mining, check your inventory!"
+        "overflow": "嗯~你在挖礦時發現一顆鑽石，但你已經有太多的鑽石，所以，我幫你把它賣掉了。",
+        "success": "喔！你在挖礦時很幸運地發現一顆鑽石，請檢查你的物品欄。"
       },
       "gem": {
         "overflow": "Huh, you found *%1$s* while mining, but you already had too much of that gem, so I sold it for you.",
@@ -1622,7 +1622,7 @@
     "message_add_reaction": "加入反應",
     "view_audit_logs": "檢視審核日誌",
     "view_channel": "讀取文字頻道 ＆ 觀看語音頻道",
-    "message_read": "Read Messages",
+    "message_read": "已讀訊息",
     "message_write": "傳送訊息",
     "message_tts": "傳送 TTS 訊息",
     "message_manage": "管理訊息",
@@ -1755,7 +1755,7 @@
       "haste": "Allows you to collect more stuff from lootable commands for 2 sessions.",
       "milky": "清除所有藥水效果.",
       "energy": "Gives less chance of a pick breaking while mining. Lasts only 5 mining sessions.",
-      "rod": "Enables you to fish.",
+      "rod": "讓你可以釣魚。",
       "fish": "Fish. Caught in fishing.",
       "tropical_fish": "A very tropical fish. Caught in fishing.",
       "blowfish": "I wonder... is this good? Caught in fishing.",
